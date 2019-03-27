@@ -3,7 +3,7 @@ This code will help u to perform specfic task at specfic given time interval (Li
 
 call this method in viewDidLoad or anywehre you want .
 
-```
+```swift
     weak var timer: Timer?
 
     override func viewDidAppear(_ animated: Bool) {
@@ -36,3 +36,4 @@ call this method in viewDidLoad or anywehre you want .
     deinit {
         stopTimer()
     }
+```
